@@ -1,0 +1,17 @@
+{
+  "name": "type-checker",
+  "version": "1.0.0",
+  "description": "A helper function to place inside of function declarations to ensure the correct type of arguments are passed in.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec",
+    "coverage": "istanbul cover _mocha"
+  },
+  "author": "Kyle Corbelli",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2"
+  }
+}
