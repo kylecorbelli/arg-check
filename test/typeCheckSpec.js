@@ -1,7 +1,6 @@
 'use strict';
 
 let expect = require('chai').expect;
-
 let typeCheck = require('../typeCheck');
 
 describe('typeCheck', () => {
