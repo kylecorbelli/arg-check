@@ -2,7 +2,7 @@
 
 let determineArgumentType = require('./determineArgumentType');
 
-let typeCheck = (argument, expectedType) => {
+let argCheck = (argument, expectedType) => {
   let type = determineArgumentType(argument);
   if (type != expectedType) {
     let message = `Expected argument to be of type "${expectedType}" but instead received type "${type}"`;
@@ -10,4 +10,4 @@ let typeCheck = (argument, expectedType) => {
   }
 };
 
-module.exports = typeCheck;
+module.exports = argCheck;

@@ -1,8 +1,8 @@
 {
-  "name": "type-checker",
+  "name": "arg-check",
   "version": "1.0.0",
   "description": "A helper function to place inside of function declarations to ensure the correct type of arguments are passed in.",
-  "main": "typeCheck.js",
+  "main": "argCheck.js",
   "scripts": {
     "test": "mocha -R spec",
     "coverage": "istanbul cover _mocha"
@@ -10,7 +10,7 @@
   "author": "Kyle Corbelli",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kylecorbelli/type-check"
+    "url": "https://github.com/kylecorbelli/arg-check"
   },
   "license": "MIT",
   "devDependencies": {

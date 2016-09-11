@@ -1,9 +1,9 @@
 'use strict';
 
 let expect = require('chai').expect;
-let typeCheck = require('../typeCheck');
+let argCheck = require('../argCheck');
 
-describe('typeCheck', () => {
+describe('argCheck', () => {
   let name = 'kyle';
   let age = 31;
   let isCoolGuy = true;
@@ -20,7 +20,7 @@ describe('typeCheck', () => {
   let kyle = new Person('Kyle');
 
   it('should be a function', () => {
-    expect(typeCheck).to.be.a('function');
+    expect(argCheck).to.be.a('function');
   });
 
   it('should not raise an error when the argument type and expected type match', () => {
@@ -69,12 +69,12 @@ describe('typeCheck', () => {
 
 let expectNotToThrowErrorOnArgumentAndExpectedType = (argument, expectedType) => {
   expect(() => {
-    typeCheck(argument, expectedType);
+    argCheck(argument, expectedType);
   }).to.not.throw(Error);
 };
 
 let expectToThrowErrorOnArgumentAndExpectedType = (argument, expectedType, errorMessage) => {
   expect(() => {
-    typeCheck(argument, expectedType);
+    argCheck(argument, expectedType);
   }).to.throw(Error, errorMessage);
 };
