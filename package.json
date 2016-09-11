@@ -2,7 +2,7 @@
   "name": "type-checker",
   "version": "1.0.0",
   "description": "A helper function to place inside of function declarations to ensure the correct type of arguments are passed in.",
-  "main": "index.js",
+  "main": "typeCheck.js",
   "scripts": {
     "test": "mocha -R spec",
     "coverage": "istanbul cover _mocha"
