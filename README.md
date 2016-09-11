@@ -4,7 +4,7 @@ type-check is a lightweight library to help developers catch bugs before they sk
 
 It couldn't be easier:
 
-```
+```javascript
 let typeCheck = require('type-check');
 
 let add = function (a, b) {
@@ -27,7 +27,7 @@ $ npm install type-check
 ```
 #### Step 2
 In path/to/my/rad/app/or/whatever/app.js:
-```
+```javascript
 let typeCheck = require('type-check');
 ```
 #### Step 3
