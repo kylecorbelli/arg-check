@@ -8,6 +8,10 @@
     "coverage": "istanbul cover _mocha"
   },
   "author": "Kyle Corbelli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kylecorbelli/type-check"
+  }
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.5.0",
