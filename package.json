@@ -1,7 +1,7 @@
 {
   "name": "arg-check",
   "version": "1.0.1",
-  "description": "A helper function to place inside of function declarations to ensure the correct type of arguments are passed in.",
+  "description": "A lightweight library to help developers catch bugs before they skitter in by making sure the right types of arguments are being passed into functions and methods.",
   "main": "argCheck.js",
   "scripts": {
     "test": "mocha -R spec",
